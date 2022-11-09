@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
 
+<h1>Homework 5</h1>
+
+  
+<button type="button" onclick="document.write(5 + 6)">Try it: 5+6</button>
+<button type="button" onclick="document.write(5 - 6)">Try it: 5-6</button>
+<button type="button" onclick="document.write(5 * 6)">Try it: 5*6</button>
+<button type="button" onclick="document.write(15 / 5)">Try it: 15/5</button>
+ 
+<p id="hwk">Random Number</p>
+<p> random number</p>
+<script>
+document.getElementById("hwk").innerHTML =
+Math.floor(Math.random() * 101);
+</script>
+
+<img id="Image" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:200px">
+
+<script>
+var name = prompt("What is your name?");
+</script>
+
+<button onclick="document.getElementById('time').innerHTML=Date()">The time is?</button>
+
+<p id="time"></p>
+
+</body>
+</html>
