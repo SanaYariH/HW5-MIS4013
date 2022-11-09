@@ -19,12 +19,12 @@ function toCelsius() {
 
 
 
-<p>Click to call a function that outputs "Hello World":</p>
+<p>Click to call a function that outputs "Welcome to MIS 4013 Homework 5!":</p>
 <button onclick="myFunction()">Click me</button>
 <p id="demo"></p>
 <script>
 function myFunction() {
-  document.getElementById("demo").innerHTML = "Hello World";
+  document.getElementById("demo").innerHTML = "Welcome to MIS 4013 Homework 5!";
 }
 </script>
 
@@ -34,7 +34,7 @@ function myFunction() {
 <script>
 function greet() {
 	var name = prompt("Enter a name: ");
-    let greeting = ("Hello " + name + ":)");
+    let greeting = ("Hello, How are you doing, " + name + ":)");
 	alert(greeting)
 }
 </script>
@@ -46,11 +46,11 @@ function greet() {
 <p>Show Message Function</p>	
 <script>
 function showMessage() {
-  let message = "Hello, I'm JavaScript!"; // local variable
+  let message = "Hello, I'm Sana Yari!"; // local variable
   alert( message );
 }
 </script>
-	
+	<p> <button onclick="showMessage()">Show message function</button> </p>	
 	
 
 
@@ -62,13 +62,7 @@ function basicaddition(){
 	let show = ("5 +3 = " + addition)
 	alert(show);
 }		
-</script>
-	
-	
-<button onclick="showMessage()">Show message function</button>
-
-	
-	
+</script>	
 <button onclick="basicaddition()">What is 5+3?</button>
 </body>
 </html>
