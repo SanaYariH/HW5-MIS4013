@@ -67,25 +67,17 @@ function basicaddition(){
 	
 	
 
-<h2>JavaScript Geolocation API Function</h2>
-<p>Click the button to get your coordinates.</p>
-<button onclick="getLocation()">Try It</button>
+<h2>JavaScript Functions</h2>
+<p>A function can access variables defined outside the function:</p>
 <p id="demo"></p>
 <script>
-const x = document.getElementById("demo");
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
-}
+let a = 4;
+myFunction();
+function myFunction() {
+  document.getElementById("demo").innerHTML = a * a;
+} 
 </script>	
+	
 	
 </body>
 </html>
